@@ -3,8 +3,39 @@
 
 void takeInput(char matrix[3][3], int *r, int *c) {
     while (1) {
-        printf("Enter row and column (0-2): ");
-        scanf("%d %d", r, c);
+    	int p;
+        printf("Enter row and column using key pad");
+        scanf("%d",&p);
+        switch(p)
+        {
+        	case 1:*r=2;
+        	*c=0;
+        		break;
+        	case 2:*r=2;
+        	*c=1;
+        		break;
+        	case 3:*r=2;
+        	*c=2;
+        		break;
+        	case 4:*r=1;
+        	*c=0;
+        		break;
+        	case 5:*r=1;
+        	*c=1;
+        		break;
+        	case 6:*r=1;
+        	*c=2;
+        		break;
+        	case 7:*r=0;
+        	*c=0;
+        		break;
+        	case 8:*r=0;
+        	*c=1;
+        		break;
+        	case 9:*r=0;
+        	*c=2;
+        		break;
+		}
 
         if (*r < 0 || *r > 2 || *c < 0 || *c > 2) {
             printf("Invalid position! Try again.\n");
