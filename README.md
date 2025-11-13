@@ -2,7 +2,8 @@ Hello there!!..
 This is one of my very beginning projects.. 
 Just wondered that a simple matrix can be used to make a tictactoe canvas.. 
 
-@Shivansh-SVNIT
+Special thanks to [@yourfriendsusername](https://github.com/yourfriendsusername)
+
 Row starting with 0 and go upto 2(i.e. 3 rows)
 Row starting with 0 and go upto 2(i.e. 3 columns)
 To play this :
