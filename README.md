@@ -4,12 +4,18 @@ Just wondered that a simple matrix can be used to make a tictactoe canvas..
 
 Made to together with to [@Shivansh-SVNIT](https://github.com/Shivansh-SVNIT)
 
-Row starting with 0 and go upto 2(i.e. 3 rows)
-Row starting with 0 and go upto 2(i.e. 3 columns)
+Use numpad to play.. assume the numpad order as your playing matrix
 To play this :
-When its turn of X
-enter the row and column of the place in matrix at which u want to put the X.
-When its turn of 0
-enter the row and column of the place in matrix at which u want to put the 0.
+if pressed
+1: position :- 3rd row 1st column
+2: position :- 3rd row 2nd column
+3: position :- 3rd row 3rd column
+4: position :- 2nd row 1st column
+5: position :- 2nd row 2nd column
+6: position :- 2nd row 3rd column
+7: position :- 1st row 1st column
+8: position :- 1st row 2nd column
+9: position :- 1st row 3rd column
+
 
 enjoy!!
